@@ -22,11 +22,11 @@ html, body {
 }
 
 #form {
-    background: #fff;
+    background: #c3c2c2;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    width: 75%;
+    width: 40vw;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -83,13 +83,12 @@ input[type="submit"]:disabled {
     margin-top: 20px;
     font-size: 16px;
     color: #333;
-    text-align: left;
-    background: #fff;
+    text-align: center;
+    background: #b9b8b8;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    width: fit-content;
-    text-align: left;
+    width: 40vw;
     display:none;
     flex-direction: column;
 }

@@ -83,7 +83,6 @@ const receiveInput = () =>{
         longitude: longInput
     }
 
-    form.reset();
     return inputObj;
 
 }
@@ -117,6 +116,7 @@ const getUVIndex = async (url) => {
 
 const displayData = (data, input) => {
 
+    form.reset();
     const div = document.getElementById('results');
     div.style.display = "flex";
     div.innerHTML = `
