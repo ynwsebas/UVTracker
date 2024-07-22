@@ -1,7 +1,5 @@
 import { apiKey } from "./export.js";
 const form = document.getElementById('form');
-const latitude = document.getElementById('latitude');
-const longitude = document.getElementById('longitude');
 
 //regex to ensure proper inputs
 
@@ -75,6 +73,9 @@ const updateSubmit = () => {
 //function to receive inputs
 
 const receiveInput = () =>{
+
+const latitude = document.getElementById('latitude');
+const longitude = document.getElementById('longitude');
 
     const latInput = latitude.value;
     const longInput = longitude.value;
